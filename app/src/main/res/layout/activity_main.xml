@@ -18,7 +18,7 @@
         android:text="@string/label_title" />
 
     <EditText
-        android:hint="Nhập tài khoản"
+        android:hint="@string/label_hint_taikhoan"
         android:layout_marginTop="30dp"
         android:layout_below="@id/textviewTieude"
         android:id="@+id/edittextTaiKhoan"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"/>
     <EditText
         android:inputType="textPassword"
-        android:hint="Nhập mật khẩu"
+        android:hint="@string/label_hint_matkhau"
         android:layout_marginTop="30dp"
         android:layout_below="@id/edittextTaiKhoan"
         android:id="@+id/edittextMatkhau"
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"/>
     <CheckBox
         android:id="@+id/checkboxLuuMatKhau"
-        android:text="Lưu mật khẩu"
+        android:text="@string/label_checkbox_savepass"
         android:layout_marginTop="30dp"
         android:layout_below="@id/edittextMatkhau"
         android:layout_width="wrap_content"
@@ -43,7 +43,7 @@
         android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/checkboxLuuMatKhau"
-        android:text="Đăng nhập"
+        android:text="@string/label_login"
         android:id="@+id/buttonDangNhap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

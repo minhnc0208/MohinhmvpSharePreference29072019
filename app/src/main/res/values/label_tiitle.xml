@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="label_title">Đăng nhập hệ thống</string>
+    <string name="label_hint_taikhoan">Nhập tài khoản</string>
+    <string name="label_hint_matkhau">Nhập mật khẩu</string>
+    <string name="label_checkbox_savepass">Lưu mật khẩu</string>
+    <string name="label_login">Đăng nhập</string>
 </resources>
